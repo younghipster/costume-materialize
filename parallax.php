@@ -1,11 +1,8 @@
-<? for($a = 1; $a<=18; $a++)
-{
-   echo '<br />';
-}?>
 <main>
+
 <!--  Start Parallax Section  -->
   <div class="parallax-container">
-    <div class="parallax"><img src="img/14.jpg">
+    <div class="parallax"><img src="img/8.jpg">
 </div>
 </div>
 
@@ -14,7 +11,7 @@
     <div class="row container">
       <h2 class="header">Hipster Company</h2>
       <p class="grey-text text-darken-3 lighten-3">
-Website ini dibangun dengan parallax &amp; slider with materialize framework Under License By MIT.</p>
+Website ini dibangun dengan parallax & slider with materialize framework Under License By MIT.</p>
     </div>
     <div class="row container"> 
       <h4 class="light">Basic Parallax code <i class="Medium material-icons">code</i></h4>
@@ -100,7 +97,6 @@ Website ini dibangun dengan parallax &amp; slider with materialize framework Und
 <!-- End with-card -->
 </div>
   <div class="parallax-container">
-    <div class="parallax"><img src="img/14.jpg"></div>
+    <div class="parallax"><img src="img/14.jpg">
+</div>
   </div> <!--  End Parallax Section  -->
-</main>
-
