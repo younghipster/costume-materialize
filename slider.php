@@ -18,7 +18,7 @@
       <img src="img/3.jpg"> <!-- random image -->
       <div class="caption right-align">
         <h3>Join With Us</h3>
-        <h5 class="light grey-text text-lighten-3">Plan Your Project.</h5>
+        <center><h5 class="light grey-text text-lighten-3">Plan Your Project.</h5></center>
       </div>
     </li>
     <li>
