@@ -1,5 +1,3 @@
-<main>
-
 <!--  Start Parallax Section  -->
   <div class="parallax-container">
     <div class="parallax"><img src="img/8.jpg">
@@ -100,3 +98,4 @@ Website ini dibangun dengan parallax & slider with materialize framework Under L
     <div class="parallax"><img src="img/14.jpg">
 </div>
   </div> <!--  End Parallax Section  -->
+
