@@ -27,6 +27,7 @@ website ini di design menggunakan Materialize CSS FrameWork -->
 <!-- top up icon dari fontawesome add font awesomenya -->
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 <!-- top up icon dari fontawesome add font awesomenya -->
+
 <script type="text/javascript" src="js/angular.min.js"></sript>
 
 <script src="//cdn.transifex.com/live.js"></script>
@@ -48,6 +49,7 @@ website ini di design menggunakan Materialize CSS FrameWork -->
   // Initialize collapsible (uncomment the line below if you use the dropdown variation)
   //$('.collapsible').collapsible();
 </script>
+
 
 <style type="text/css">
 
@@ -73,9 +75,14 @@ website ini di design menggunakan Materialize CSS FrameWork -->
 
 <?php include('parallax.php'); ?>
 
-
 <?php include('footer.php'); ?>
 
+<script type = "text/javascript">
+// Show sideNav
+  $('.button-collapse').sideNav('show');
+  // Hide sideNav
+  $('.button-collapse').sideNav('hide');       
+</script>
 
 <script type="text/javascript">
 angular.module("myapp", [])
