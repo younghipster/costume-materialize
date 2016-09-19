@@ -39,7 +39,11 @@
       <img src="img/16.jpg"> <!-- random image -->
       <div class="caption right-align">
         <h3 style="color:#FFF8DC;">It&#39;s gleaming in my eyes</h3>
-        <h5 class="light grey-text text-lighten-3"><span style="color:#DC143C;"><em>Lovely,</em> oh...</span> <span style="color:#FAFAD2;">the light I can see.</span></h5>
+        <h5 class="light grey-text text-lighten-3"><span style="color:#DC143C;"><em>Lovely,</em> oh...</span> <span style="color:#FAFAD2;">the light 
+<? for($a = 1; $a<=7; $a++)
+{
+   echo '&nbsp;';
+}?>I can see.</span></h5>
       </div>
     </li>
 
