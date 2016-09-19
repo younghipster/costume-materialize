@@ -14,7 +14,7 @@
     <div class="row container">
       <h2 class="header">Hipster Company</h2>
       <p class="grey-text text-darken-3 lighten-3">
-Website ini dibangun dengan parallax & slider with materialize framework Under License By MIT.</p>
+Website ini dibangun dengan parallax &amp; slider with materialize framework Under License By MIT.</p>
     </div>
     <div class="row container"> 
       <h4 class="light">Basic Parallax code <i class="Medium material-icons">code</i></h4>
