@@ -69,6 +69,8 @@ website ini di design menggunakan Materialize CSS FrameWork -->
 <?php include('slider.php'); ?>
 
 <body class="parallax-demo" ng-app="myapp">
+<main>
+
 <? for($a = 1; $a<=18; $a++)
 {
    echo '<br />';
